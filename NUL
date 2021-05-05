@@ -1,0 +1,107 @@
+[1620121286.665][INFO]: Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614})
+[1620121286.665][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1620121287.666][INFO]: [00dac6065bcf20540d9c1c17f4813b8b] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-infobars", "start-maximized", "--disable-extensions", "--start-maximized" ],
+            "extensions": [  ],
+            "prefs": {
+               "profile.default_content_setting_values.geolocation": 1,
+               "profile.default_content_setting_values.media_stream_camera": 1,
+               "profile.default_content_setting_values.media_stream_mic": 1,
+               "profile.default_content_setting_values.notifications": 1
+            }
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-infobars", "start-maximized", "--disable-extensions", "--start-maximized" ],
+         "extensions": [  ],
+         "prefs": {
+            "profile.default_content_setting_values.geolocation": 1,
+            "profile.default_content_setting_values.media_stream_camera": 1,
+            "profile.default_content_setting_values.media_stream_mic": 1,
+            "profile.default_content_setting_values.notifications": 1
+         }
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1620121287.666][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1,
+         "media_stream_camera": 1,
+         "media_stream_mic": 1,
+         "notifications": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1620121287.666][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1620121287.667][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-extensions --disable-extensions-except=/tmp/.com.google.Chrome.yr1XQX/internal --disable-hang-monitor --disable-infobars --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.biLIY0 data:,
+[1620121288.194][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[1620121288.717][INFO]: [00dac6065bcf20540d9c1c17f4813b8b] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 79
